@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import BookForm from "./components/BookForm";
 import BookList from "./components/BookList";
-import "./App.css";
 
 const API_URL = (
   import.meta.env.VITE_API_URL || "http://localhost:8080"
